@@ -34,10 +34,10 @@ nav {
 }
 
 .list-links li {
-  margin: 16px 0;
+  margin: 16px;
 }
 
-.list-links li a{
+.list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
 }
