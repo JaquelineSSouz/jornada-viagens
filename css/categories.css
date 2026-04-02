@@ -18,16 +18,12 @@
   color: var(--text-primary-color);
 }
 
-.categories-cards .card h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
+.categories-cards .card.single-line {
+  padding-top: 50px;
 }
-/*trick*/
-
 
 .categories-cards .card.single-line.transfer img {
   margin: 10px 0 20px;
- 
 }
 
 @media screen and (min-width: 768px) {
