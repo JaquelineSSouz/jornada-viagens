@@ -88,7 +88,7 @@ nav {
   .img-mobile {
     display: none;
   }
-  .navigation-menu a:hover{
+  .navigation-menu a:hover {
     color: var(--primary-color);
   }
 }
