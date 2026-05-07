@@ -43,6 +43,10 @@ body {
   color: var(--text-primary-color);
 }
 
+.list-links a.active{
+  text-decoration: underline
+}
+
 section {
   width: 312px;
   margin: 0 auto 88px;
