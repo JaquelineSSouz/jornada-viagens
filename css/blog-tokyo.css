@@ -1,0 +1,64 @@
+.blog-tokyo {
+  margin-top: 88px;
+}
+
+.blog-tokyo .section-title h2 {
+  font-size: 32px;
+}
+
+.tokyo-content h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.tokyo-content h3:first-of-type {
+  margin-top: 56px;
+}
+
+.tokyo-content p {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.tokyo-content .arrival-image {
+  width: 312px;
+  height: 360px;
+  display: block;
+  margin-bottom: 32px;
+}
+
+.city-view-image {
+  width: 312px;
+  height: 300px;
+  display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .tokyo-content h3:first-of-type {
+    margin-top: 0;
+  }
+
+  .arrival-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 32px;
+  }
+
+  .arrival-text {
+    flex: 1;
+  }
+}
