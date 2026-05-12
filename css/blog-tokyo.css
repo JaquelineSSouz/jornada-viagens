@@ -61,4 +61,8 @@ figcaption {
   .arrival-text {
     flex: 1;
   }
+
+  .city-view-image {
+    width: 648px;
+  }
 }
