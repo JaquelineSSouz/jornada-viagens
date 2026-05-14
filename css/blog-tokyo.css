@@ -66,3 +66,21 @@ figcaption {
     width: 648px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .tokyo-content .arrival-image {
+    width: 420px;
+    height: auto;
+  }
+  .tokyo-content .city-view-image {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tokyo-content .arrival-image {
+    width: 588px;
+  }
+}
