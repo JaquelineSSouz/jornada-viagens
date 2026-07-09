@@ -1,38 +1,63 @@
 .cities-blog {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
 .other-posts .city .img-blog {
-    width: 100%;
-    height: 312px;
+  width: 100%;
+  height: 312px;
 }
 
 .other-posts .city.osaka .img-blog {
-    background: url("../img/osaka-post.png");
-    background-size: cover;
+  background: url("../img/osaka-post.png");
+  background-size: cover;
 }
 
 .other-posts .city.hiroshima .img-blog {
-    background: url("../img/hiroshima-post.png");
-    background-size: cover;
+  background: url("../img/hiroshima-post.png");
+  background-size: cover;
 }
 
 .other-posts .city.kyoto .img-blog {
-    background: url("../img/kyoto-post.png");
-    background-size: cover;
+  background: url("../img/kyoto-post.png");
+  background-size: cover;
 }
 
 .other-posts .city header h3 {
-    margin: 16px 0px 8px;
+  margin: 16px 0px 8px;
 }
 
 .other-posts .city p {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .other-posts .button {
-    width: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .other-posts .city .img-blog {
+    width: 648px;
+  }
+
+  .other-posts .city.osaka .img-blog {
+    background: url("../img/blog-osaka-tablet.jpg");
+    background-size: cover;
+  }
+
+  .other-posts .city.hiroshima .img-blog {
+    background: url("../img/blog-hiroshima-tablet.jpg");
+    background-size: cover;
+  }
+
+  .other-posts .city.kyoto .img-blog {
+    background: url("../img/blog-kyoto-tablet.jpg");
+    background-size: cover;
+  }
+
+  .other-posts .button {
+    width: 280px;
+  }
 }
