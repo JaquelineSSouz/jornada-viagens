@@ -46,26 +46,57 @@
     width: 100%;
     height: 312px;
     background-repeat: no-repeat;
-    background-position: center;
   }
 
   .other-posts .city.osaka .img-blog {
     background: url("../img/blog-osaka-tablet.jpg");
     background-size: cover;
+    background-position: center;
     
   }
 
   .other-posts .city.hiroshima .img-blog {
     background: url("../img/blog-hiroshima-tablet.jpg");
     background-size: cover;
+    background-position: center;
   }
 
   .other-posts .city.kyoto .img-blog {
     background: url("../img/blog-kyoto-tablet.jpg");
     background-size: cover;
+    background-position: center;
   }
 
   .other-posts .button {
     width: 280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cities-blog {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    margin-top: 64px;
+  }
+
+  .other-posts .city {
+    width: 384px;
+  }
+
+  .other-posts .city header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .other-posts .city footer {
+    margin-top: auto;
+  }
+
+  .other-posts .city .img-blog {
+    width: 100%;
+    height: 300px;
   }
 }
