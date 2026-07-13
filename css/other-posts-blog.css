@@ -38,13 +38,21 @@
 }
 
 @media screen and (min-width: 768px) {
-  .other-posts .city .img-blog {
+  .other-posts .city {
     width: 648px;
+  }
+
+  .other-posts .city .img-blog {
+    width: 100%;
+    height: 312px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .other-posts .city.osaka .img-blog {
     background: url("../img/blog-osaka-tablet.jpg");
     background-size: cover;
+    
   }
 
   .other-posts .city.hiroshima .img-blog {
